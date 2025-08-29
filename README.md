@@ -1,52 +1,64 @@
-# Turtle Graphics Pack — Shaded Front Faces
+# 🐢 Turtle Graphics Pack  
 
-A small collection of figures drawn with Python’s built-in `turtle` module.
+A creative collection of figures drawn entirely with Python’s built-in [`turtle`](https://docs.python.org/3/library/turtle.html) module.  
+This project demonstrates how procedural graphics, fractals, and custom shapes can be generated with simple Python code — no external libraries required.  
 
-**Figures:**
-1. Double rhombuses (white fill, black contour only)
-2. Triangle with inset (filled)
-3. Isometric prism (front face shaded, back edges dashed)
-4. Olympic rings (monochrome outline)
-5. Compass rose (centered circle; labels in light purple)
-6. Marked square (dashed edges, diagonals, dots)
-
-## Preview
-
-Add a screenshot as `preview.png` in this folder and it will render below:
-
-![Preview](preview.png)
-
-# Turtle Graphics Pack — Shaded Front Faces & Extended Figures
-
-A collection of figures drawn with Python’s built-in `turtle` module.  
-This project demonstrates modular drawing functions, use of fills, and creative compositions.
+The pack is split into two parts:  
 
 ---
 
-## Figures
+## Part 1 — Shaded Front Faces  
 
+Introductory geometric figures with basic fills, contours, and line styles.  
+
+**Figures included:**  
+1. ♦️ **Double rhombuses** — white fill, black contour only  
+2. 🔺 **Triangle with inset** — filled inner triangle  
+3. 📐 **Isometric prism** — shaded front face, dashed back edges  
+4. ⭕ **Olympic rings** — monochrome outline  
+5. 🧭 **Compass rose** — centered circle; cardinal labels in light purple  
+6. ◼️ **Marked square** — dashed edges, diagonals, and dots  
+
+**Preview:**  
+
+![Preview](preview.png)  
+
+---
+
+## Part 2 — Extended Figures  
+
+More advanced figures, showing fractals, natural forms, and composite shapes.  
+
+**Figures included:**  
 1. 🌞 **Sun** — yellow disk with alternating rays  
-2. 🌀 **Spiral** — logarithmic spiral with thicker line  
-3. 🐝 **Honeycomb + Bee** — gold hexagonal grid with a simple bee drawn from shapes  
-4. ❄️ **Snowflake** — Koch fractal snowflake, now filled white with purple outline  
+2. 🌀 **Logarithmic spiral** — mathematical spiral with thicker line  
+3. 🐝 **Honeycomb + Bee** — gold hexagonal grid with a simple bee built from shapes  
+4. ❄️ **Koch snowflake** — fractal, filled white with purple outline  
 5. 🌸 **Flower** — arc-petal flower (petals only, no center circle)  
 
----
+**Preview:**  
 
-## Preview
-
-![Preview](preview2.png)
+![Preview](preview2.png)  
 
 ---
 
-## Run locally
+## 🎯 Learning Outcomes  
+
+Through this project I practiced and demonstrated:  
+- Procedural drawing with Python’s `turtle`  
+- Use of modular functions for reusability  
+- Shading with `begin_fill()` and `end_fill()`  
+- Drawing mathematical shapes (spirals, fractals, honeycomb tiling)  
+- Combining primitives into composite figures (e.g., the bee with body, wings, stripes, stinger)  
+- Visual design and layout for clear composition  
+
+---
+
+## 🚀 Run Locally  
+
+Clone the repository and run either the **basic pack** or the **extended pack**:  
 
 ```bash
 git clone https://github.com/<your-username>/turtle-graphics-pack.git
 cd turtle-graphics-pack
-python turtle_new_figures.py
 
-## Run locally
-
-```bash
-python turtle_shaded_figures.py
